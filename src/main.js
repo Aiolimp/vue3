@@ -8,6 +8,6 @@ import 'lib-flexible/flexible'
 const app = createApp(App) // 创建实例
 
 app.use(Button) // 注册组件
-app.use(router); //需放在app.mount(’#app’)前面 不然加载时router-view、router-link等未被渲染
+app.use(router); //需放在app.mount(’#app’)前面 不然加载时router-view、router-link等未被渲染.
 
 app.mount('#app')
